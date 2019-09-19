@@ -1,0 +1,16 @@
+devTask folder contains the server code for the task and the client folder the test client
+
+For the server:
+
+to start the server: java -jar devTask/target/devTask-0.0.1-SNAPSHOT.jar 
+
+GET localhost:8080/server?user=[username] to get the key
+
+POST localhost:8080/sever?user=[username] include in the body the encrypted key to check if it matches
+
+
+For the client:
+
+To run the client java -jar client/target/client-1.0-SNAPSHOT.jar
+ 
+the client executes some tests and prints their output
