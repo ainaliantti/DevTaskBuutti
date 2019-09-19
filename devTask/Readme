@@ -1,0 +1,9 @@
+Simple API server
+
+USAGE:
+
+to start the server: java -jar target/devTask-0.0.1-SNAPSHOT.jar 
+
+GET localhost:8080/server?user=[username] to get the key
+
+POST localhost:8080/sever?user=[username] include in the body the encrypted key to check if it matches

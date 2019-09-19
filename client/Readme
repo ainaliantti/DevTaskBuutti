@@ -1,0 +1,7 @@
+A test client for the devTask API server
+
+
+USAGE
+
+To run the client java -jar target/client-1.0-SNAPSHOT.jar 
+the client executes some tests and prints their output
